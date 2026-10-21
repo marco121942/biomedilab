@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-celeste: #00B4FF;
+  --color-blanco: #FFFFFF;
+  --color-azul-bio: #002B94;
+  --color-azul-vibrante: #004DE6;
+  --color-azul-noche: #00164D;
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+:root {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #00164D;
+  color: #FFFFFF;
+  overflow-x: hidden;
+}
